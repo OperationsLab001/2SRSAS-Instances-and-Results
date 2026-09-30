@@ -1,0 +1,5 @@
+model,planning_runs,OOS_evaluations,mean_AOL_pct,mean_CVaR95_pct,mean_emergency,mean_abandonment,mean_nonterminal_backlog,lowest_AOL_count_of_12,lowest_CVaR_count_of_12
+DET,120,120000,15.24,27.77,30.37,15.56,11.28,0,0
+SP,120,120000,11.31,20.99,25.21,12.57,9.26,0,0
+RO,120,120000,9.6,17.65,21.36,10.68,7.83,0,0
+SRO,120,120000,7.41,13.23,17.85,8.78,6.43,12,12

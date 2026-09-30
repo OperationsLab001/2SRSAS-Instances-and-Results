@@ -1,0 +1,5 @@
+configuration,mean_solved,mean_root_gap_pct,mean_time_first_incumbent_s,mean_final_gap_pct,mean_time_s,mean_nodes,mean_cuts
+BBC_0,5.8,15.6,248.1,7.4,1723.8,13305,5673
+BBC_Init,6.7,11.1,208.8,6.3,1484.3,11027,5353
+BBC_Init+UB,7.0,10.9,92.7,5.2,1360.7,9377,5526
+IBBC,7.7,8.1,75.3,4.1,1224.8,8636,6488

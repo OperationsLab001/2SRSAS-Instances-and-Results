@@ -1,0 +1,31 @@
+parameter,value,provenance
+benchmark_classes,"(3,6,12,20); (5,10,24,40); (8,15,24,60)",reported
+base_instances_per_class,10,reported
+shift_lengths,2;4;6;8 consecutive periods,reported
+shift_assignment_cost_cS,"U[80,140]",reported
+service_rate_mu,"U[0.8,1.5]",reported
+capacity_factor_rho,"U[0.75,1.00]",reported
+emergency_cost_cO,"U[20,40]",reported
+abandonment_penalty_pA,"U[80,150]",reported
+backlog_penalty_pR,"U[10,30]",reported
+baseline_skill_probability,0.50 + compatibility repair,reported
+baseline_class_demand_bj,"U[4,6] once per base instance",reported
+time_profile,1 - 0.30*cos(2*pi*(t-0.5)/T),reported
+sigma_lambda,0.20,reported
+rho_T,0.60,reported
+rho_J,0.30,reported
+scenario_counts,8;16;32;64,reported
+scenario_probability,1/Omega,reported
+alpha_values,0.10;0.20;0.30 (baseline 0.20),reported
+q_values,0.10;0.20;0.30,reported
+Gamma,floor(q*J*T),reported
+N_min,ceil(0.8*N_ref),reported
+N_max,ceil(1.4*N_ref),reported
+emergency_scaling_kappa,0.25 baseline,reported
+O_it,kappa * sum_{j compatible} tau_ij * mean_training_lambda_jt,reported
+N_test,1000 common OOS realizations/base instance,reported
+master_seed,2026,reported
+time_limit_s,3600,reported
+target_relative_gap,1e-4,reported
+score_tolerance,1e-5,reported
+lazy_cut_tolerance,1e-5,reported
